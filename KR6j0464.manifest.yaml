@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0464/v1
 canonical_location: https://kanripo.org/bkk/KR6j0464/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 聖無能勝金剛火陀羅尼經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0464_000.yaml, hash: 'sha256:39e3567c9e67bad3186dc0f0e727f24e822000892ea77619023109f70e3563b6'}
-  - {seq: 1, filename: KR6j0464_001.yaml, hash: 'sha256:21abb8474fb22c47b9edb37ca5ec2955278252027b430973564d3630af7ecd96'}
+  - {seq: 1, filename: KR6j0464_001.yaml, hash: 'sha256:93d02c11c4bf75531df6877a8aae695338d5c589efa63708f531c8a39c28d55a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0464_000.markers.yaml, hash: 'sha256:81c90da16daca23d9a1e133ef4ed15a01f87a2d6ada119bfa5159511c0b97310'}
-  - {seq: 1, role: markers, filename: assets/KR6j0464_001.markers.yaml, hash: 'sha256:51ad4a56960a19365726f884b16496f07cae4d4c9dabac965eeb0c144217f876'}
+  - {seq: 1, role: markers, filename: assets/KR6j0464_001.markers.yaml, hash: 'sha256:12b5a7e94edfea453bea2688a74c8ea897e0e513bbc7343194de392c90ca15c7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 聖無能勝金剛火陀羅尼經
   type: juan
   level: 1
-hash: sha256:eba8b1b6525c2d5b2a5825bf294da895154d26c4d250ab765f94f98645190428
+hash: sha256:02a5e9af71a5dcef0243fe3a2d5c3b933655d2488611f9a504b587f2d97ec59e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
